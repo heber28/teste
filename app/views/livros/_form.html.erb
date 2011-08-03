@@ -1,0 +1,20 @@
+<%= form_for @livro do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :titulo %><br />
+    <%= f.text_field :titulo %>
+  </p>
+  <p>
+    <%= f.label :autor %><br />
+    <%= f.text_field :autor %>
+  </p>
+  <p>
+    <%= f.label :isbn %><br />
+    <%= f.text_field :isbn %>
+  </p>
+  <p>
+    <%= f.label :descricao %><br />
+    <%= f.text_field :descricao %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

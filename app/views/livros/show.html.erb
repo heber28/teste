@@ -1,0 +1,24 @@
+<% title "Livro" %>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @livro.titulo %>
+</p>
+<p>
+  <strong>Autor:</strong>
+  <%= @livro.autor %>
+</p>
+<p>
+  <strong>Isbn:</strong>
+  <%= @livro.isbn %>
+</p>
+<p>
+  <strong>Descricao:</strong>
+  <%= @livro.descricao %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_livro_path(@livro) %> |
+  <%= link_to "Destroy", @livro, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", livros_path %>
+</p>

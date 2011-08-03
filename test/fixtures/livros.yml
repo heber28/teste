@@ -1,0 +1,11 @@
+one:
+  titulo: MyString
+  autor: MyString
+  isbn: MyString
+  descricao: MyString
+
+two:
+  titulo: MyString
+  autor: MyString
+  isbn: MyString
+  descricao: MyString
