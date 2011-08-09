@@ -17,7 +17,7 @@ test:
 
 production:
   adapter: mysql2
-  encoding: uft8
+  encoding: utf8
   reconnect: true
   database: teste_production
   pool: 5
