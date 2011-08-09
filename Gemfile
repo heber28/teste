@@ -11,6 +11,8 @@ gem 'sqlite3'
 
 gem "nifty-generators", :group => :development
 
+gem 'whenever', '0.6.8'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
