@@ -18,3 +18,5 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+RAILS_ENV=production
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/games

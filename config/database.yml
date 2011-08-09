@@ -16,7 +16,12 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: mysql2
+  encoding: uft8
+  reconnect: true
+  database: teste_production
   pool: 5
   timeout: 5000
+  username: root
+  password:
+  socket: /var/run/mysqld/mysqld.sock
